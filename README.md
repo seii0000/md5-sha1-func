@@ -4,27 +4,30 @@ Trong mật mã học, SHA-1 là hàm băm mật mã lấy đầu vào và tạo
 
 Trong mật mã học, MD5 là một hàm băm mật mã học được sử dụng phổ biến với giá trị băm dài 128-bit. Là một chuẩn Internet, MD5 đã được dùng trong nhiều ứng dụng bảo mật, và cũng được dùng phổ biến để kiểm tra tính toàn vẹn của tập tin. Một bảng băm MD5 thường được diễn tả bằng một số hệ thập lục phân 32 ký tự
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Clone this project
 
 ```bash
-pip install foobar
+git clone https://github.com/seii0000/md5-sha1-func.git
 ```
 
 ## Usage
 
 ```python
-import foobar
+// Strings
+          // Mã hoá văn bản bằng func SHA1
+          // Nguồn nhập
+          string ss1;
+          cin >> ss1;
 
-# returns 'words'
-foobar.pluralize('word')
+          // std::stringstream ss1("SHA of std::stringstream");
+          cout << sw::sha1::calculate(ss) << endl;
 
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+// Mã hoá văn bản bằng func SHA1
+          // Nguồn nhập
+          string ss2;
+          cin >> ss2;
+          std::stringstream ss2("SHA of std::stringstream");
+          cout << sw::md5::calculate(ss2) << endl;
 ```
 
 ## Contributing
@@ -34,6 +37,6 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## Nguồn tham khảo
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[SHA1, MD5 source code]([https://choosealicense.com/licenses/mit/](https://www.atwillys.de/content/cc/cpp-hash-algorithms-class-templates-crc-sha1-sha256-md5/))
