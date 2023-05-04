@@ -39,4 +39,4 @@ Please make sure to update tests as appropriate.
 
 ## Nguồn tham khảo
 
-[SHA1_MD5source_code]([https://www.atwillys.de/content/cc/cpp-hash-algorithms-class-templates-crc-sha1-sha256-md5/])
+[SHA1_MD5source_code](https://choosealicense.com/licenses/mit/](https://www.atwillys.de/content/cc/cpp-hash-algorithms-class-templates-crc-sha1-sha256-md5/)
